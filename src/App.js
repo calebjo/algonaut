@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faGitHu } from '@fortawesome/free-solid-svg-icons'
+
 function App() {
   return (
     <div className="app">
@@ -18,7 +21,7 @@ function App() {
                     <div className="nav-socials">
                         <div className="social-link">
                             <a href="https://github.com/calebjo/">
-                                GITHUB
+                                <FontAwesomeIcon icon="fa-brands fa-github-alt" />
                             </a>
                         </div>
                         <div className="social-link">
